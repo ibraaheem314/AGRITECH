@@ -1,0 +1,40 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime
+*.local
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+
+# Env files (sensibles)
+.env
+*.env
+src/.env
+backend/.env
+
+# IDEs / Editors
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Database (local sqlite if needed)
+*.sqlite
+*.db
+
+# Others
+coverage/
